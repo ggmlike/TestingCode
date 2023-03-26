@@ -1,2 +1,3 @@
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-Megan = 123
+# testing git
+name = 'Megan'
+age = 16
