@@ -23,4 +23,13 @@ def sum_variables(varibles):
     return summer
 
 
-print(sum_variables([1,4,5,6,7,8,9,0,12,13,15,123,34]))
+print(sum_variables([1,4,34]))
+
+
+# search index arr
+def find_index(arr, value):
+    for i, v in enumerate(arr):
+        if v == value:
+            return i
+    return -1
+print(find_index([4,4,6,56], 4))
