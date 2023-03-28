@@ -22,5 +22,3 @@ def sum_variables(varibles):
         summer += var
     return summer
 
-
-print(sum_variables([10, 20, 30, 40, 50, 60]))
