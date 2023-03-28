@@ -23,4 +23,4 @@ def sum_variables(varibles):
     return summer
 
 
-print(sum_variables([1,2,4,5,6,7,8,9,0,11,12,13,15,123,34]))
+print(sum_variables([1,2,4,5,6,7,8,9,0,12,13,15,123,34]))
