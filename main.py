@@ -32,4 +32,28 @@ def find_index(arr, value):
         if v == value:
             return i
     return -1
+
+
 print(find_index([4,4,6,56], 4))
+
+#calculate_bmi
+def calculate_bmi(weight, height):
+    bmi = weight / (height ** 2)
+    return bmi
+
+weight = float(input("Enter your weight (in kilograms): "))
+height = float(input("Enter your height (in meters): "))
+
+bmi = calculate_bmi(weight, height)
+print("Your BMI is: ", bmi)
+
+if bmi < 18.5:
+    print("Underweight")
+elif bmi >= 18.5 and bmi < 25:
+    print("Normal weight")
+elif bmi >= 25 and bmi < 30:
+    print("Overweight")
+else:
+    print("Obesity")
+
+
